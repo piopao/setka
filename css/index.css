@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'intro_condblack_free';
+    src: url('../intro_cond_black_free-webfont.woff2') format('woff2'),
+         url('../intro_cond_black_free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular_0-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page{
+	height: 100vh;
+}
+
+#info{
+	background-color: #387d5d; 
+}
+
+#intro{
+	background-color: #f4ead3; 
+}
+
+#types{
+	background-color: #f9a63b; 
+}
+
+#length{
+	background-color: #f4ead3; 
+}
+
+#applications{
+	background-color: #162c55;
+}
+
+#info p{
+	font-family: intro_condblack_free;
+	text-align: center;
+	font-size: 3.5em;
+	font-color: #efe3c8;
+}
