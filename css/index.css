@@ -23,11 +23,19 @@ body{
 }
 
 #info{
-	background-color: #387d5d;
+	background-color: #387d5d;	
 	position: relative;
 	height: 65vh;
 	min-height: 650px;
-	/*min-height: 750px;*/
+	min-width: 350px;
+}
+
+#info:first-child{
+	background-image: url(../images/polish.png), url(../images/pencil.png);
+	/*background-position: right center, left center;*/
+	background-position: 5% 50%, 95% 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 15% auto;
 }
 
 #intro{
@@ -46,12 +54,7 @@ body{
 	background-color: #162c55;
 }
 
-#flex_container{
-	display: -webkit-flex;
-	display: flex;
-	justify-content: flex-start;
-	-webkit-flex-direction: column;
-    flex-direction: column;
+#text_container{
     padding-top: 2em;
 }
 
@@ -59,7 +62,7 @@ body{
 	font-family: 'intro_condblack_free';
 	text-align: center;
 	font-size: 3.5em;
-	margin-bottom: 0em
+	margin-bottom: 0em;
 	
 }
 
@@ -95,7 +98,7 @@ body{
     position: absolute;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .regular_text{
 		font-size: 0.8em;
 		padding-left: 5em;
