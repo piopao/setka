@@ -51,10 +51,29 @@ body{
 	background-color: #162c55;
 }
 
+
+/*FIRST PAGE-SPECIFIC TEXT RULES*/
 #text_container{
     padding-top: 2em;
 }
 
+#text_container p:first-child{
+	color: #efe3c8;
+}
+
+#text_container p:nth-child(2){
+	color: #69a189;
+}
+
+#text_container p:last-child{
+	color: #faa93c;
+	font-size: 9em;
+	margin: 0em;
+	line-height: 1;
+	margin: 0em;
+}
+
+/* GENERAL TEXT RULES*/
 .title_text{
 	font-family: 'intro_condblack_free';
 	text-align: center;
@@ -71,19 +90,12 @@ body{
 
 }
 
+/*FIRST PAGE IMAGE RULES*/
 #icon{
 	position:fixed;
 	right: 2em;
 	top: 3em;
 	display:block;
-}
-
-#T01{
-	color: #faa93c;
-	font-size: 9em;
-	margin: 0em;
-	line-height: 1;
-	margin: 0em;
 }
 
 #cassette{
@@ -95,7 +107,14 @@ body{
     position: absolute;
 }
 
+
 @media screen and (max-width: 600px) {
+	/*FIRST PAGE-SPECIFIC TEXT RULES*/
+	#text_container p:nth-child(3){
+		font-size: 5em;
+	}
+	
+	/*GENERAL TEXT RULES*/
     .regular_text{
 		font-size: 0.8em;
 		padding-left: 5em;
@@ -106,10 +125,6 @@ body{
 		font-size: 2em;
 	}	
 	
-	#T01{
-		font-size: 5em;
-
-	}
 	#icon{
 		display:block;
     	margin-left: auto;
@@ -117,11 +132,8 @@ body{
     	padding-top: 2em;
     	position:static;
 	}
-
-	#flex_container{
-		padding-top: 0em;
-	}
-
+	
+	/*FIRST PAGE IMAGE RULES*/
 	#cassette img{
 		width: 80%;
 	}
