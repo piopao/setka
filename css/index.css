@@ -28,15 +28,12 @@ body{
 	height: 65vh;
 	min-height: 650px;
 	min-width: 350px;
-}
-
-#info:first-child{
 	background-image: url(../images/polish.png), url(../images/pencil.png);
-	/*background-position: right center, left center;*/
 	background-position: 5% 50%, 95% 50%;
     background-repeat: no-repeat, no-repeat;
     background-size: 15% auto;
 }
+
 
 #intro{
 	background-color: #f4ead3; 
@@ -130,7 +127,7 @@ body{
 	}
 
 	#cassette{
-		 bottom: 5%;
+		 bottom: 0%;
 	}
 
 
