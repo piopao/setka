@@ -71,7 +71,14 @@ body{
 	margin: 0em;
 	line-height: 1;
 	margin: 0em;
+	position: relative;
 }
+
+#text_container p:last-child:hover{
+	z-index: 1;
+}
+
+
 
 /* GENERAL TEXT RULES*/
 .title_text{
