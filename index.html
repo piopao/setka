@@ -15,7 +15,22 @@
 			</div>
 			<div id = "cassette" ><img src="images/cassette.png" alt=""></div>
 		</div>
-		<div id = "intro" class = "page"></div>
+		<div id = "intro" class = "page">
+			<div class = "title" data-0 = "padding-top: 40%" data-500 = "padding-top: 20%">
+				<div class = "title_text left" >02 <img src = "images/underline.png"></div>
+				<div class = "title_text">INTRODUCTION</div>
+			</div>
+			<div id = "intro_content">
+				<div id = "visual_content">
+					<div><div id = "background"></div></div>					
+					<div>
+						<p class = "regular_text"> 
+						In 1962, Philips invented the Compact Cassette medium for audio storage, introducing it in Europe on 30 August 1963 at the Berlin Radio Show,and in the United States (under the Norelco brand) in November 1964, with the trademark name Compact Cassette. The team at Philips was led by Lou Ottens in Hasselt, Belgium.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</div>
 		<div id = "types" class = "page"></div>
 		<div id = "length" class = "page"></div>
 		<div id = "applications" class = "page"></div>
@@ -23,9 +38,14 @@
 		<script type="text/javascript" src="dist/skrollr.min.js"></script>
 
 	<script type="text/javascript">
+	if(window.innerWidth > 700){
 	skrollr.init({
 		forceHeight: false
 	});
+	}
+	else{ 
+		var s = skrollr.init();
+		s.destroy();}
 	</script>
 </body>
 </html>
