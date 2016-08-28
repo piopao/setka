@@ -20,15 +20,14 @@ body{
 
 .page{
 	height: 100vh;
-	min-height: 700px;
-	min-width: 350px;
+	min-height: 1200px;
 }
 
 #info{
 	background-color: #387d5d;	
 	position: relative;
 	height: 70vh;
-	
+	min-height: 700px;
 	background-image: url(../images/polish.png), url(../images/pencil.png);
 	background-position: 5% 50%, 95% 50%;
     background-repeat: no-repeat, no-repeat;
@@ -158,55 +157,60 @@ body{
 	position:relative;
 }
 
+#visual_content{
+	margin-bottom: 20%;
+	position:relative;
+	height: auto;
+}
+
 #visual_content > div:first-child{
-	width: 40%;
+	width: 50%;
 	border-color: #f9a63b;
 	border-style: solid;
 	border-width: 0.4em;
-	margin:auto;
-	position:relative;	
 	padding: 10px;	
 	min-width: 250px;
+    left: 0;
+    right: 0;   
+    margin: 0 auto;
 }
 
 #background{
 	background: url(../images/oldman.png) no-repeat;
 	width: 100%;
-	min-height: 400px;
+	min-height: 500px;
     padding-left: 2em;
     max-height: 420px;
     background-size: cover;
 }
 
+#visual_content div:nth-child(2){
+	bottom: -20%;
+	left: 50%;
+	position:absolute;	
+}
 
 #visual_content .regular_text{
-    position: relative;
-    right: -40%;
 	background-color: #f9a63b;	
-	width: 35%;
-	height: 30%;
-	display: flex;
-	align-items: center;
-	margin-top: -8%;
 	padding: 3em;
 	word-wrap: break-word;
 	color: white;
-	margin-bottom: 10%;
 	line-height: 2;
+	width: 50%;
 }
 
-#visual_content div:nth-child(3){
-	padding: 1em;
+
+
+#visual_content img{
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left: 2em;
+    padding-right:2em;
 	background-color: #162c55;
-	position: absolute;
-	width: 5%;
-	margin-top: -12%;
-    left: 65%;
-}
-
-#visual_content div:nth-child(3) img{
 	display: block;
-	margin: 0%;
+	position:absolute;
+	bottom: 0%;
+	left: 40%;
 }
 
 @media screen and (max-width: 700px) {
