@@ -185,7 +185,7 @@ body{
 }
 
 #visual_content div:nth-child(2){
-	bottom: -20%;
+	bottom: -5%;
 	left: 50%;
 	position:absolute;	
 }
@@ -196,7 +196,7 @@ body{
 	word-wrap: break-word;
 	color: white;
 	line-height: 2;
-	width: 50%;
+	width: 60%;
 }
 
 
