@@ -27,7 +27,7 @@ body{
 #info{
 	background-color: #387d5d;	
 	position: relative;
-	height: 65vh;
+	height: 70vh;
 	
 	background-image: url(../images/polish.png), url(../images/pencil.png);
 	background-position: 5% 50%, 95% 50%;
@@ -87,7 +87,7 @@ body{
 	font-family: 'intro_condblack_free';
 	text-align: center;
 	font-size: 3.5em;
-	margin-bottom: 0em;
+	/*margin-bottom: 1em;*/
 	margin-top: 0em;
 	
 }
@@ -96,8 +96,12 @@ body{
 	font-family: 'montserratregular';
 	text-align: center;
 	font-size: 0.8em;
-	margin: 2em;
+	/*margin: 2em;*/
 
+}
+
+#text_container .title_text{
+	margin-bottom: 1em;
 }
 
 /*FIRST PAGE IMAGE RULES*/
@@ -113,7 +117,7 @@ body{
  	left: 0px;
  	right: 0px;
     text-align: center;
-    bottom: -20%;
+    bottom: -15%;
     position: absolute;
 }
 
@@ -154,14 +158,11 @@ body{
 	position:relative;
 }
 
-#visual_content:first-child{
+#visual_content > div:first-child{
 	width: 40%;
 	border-color: #f9a63b;
 	border-style: solid;
-	border-width: 0.5em;
-	left:0;
-	right:0;
-	bottom:0;
+	border-width: 0.4em;
 	margin:auto;
 	position:relative;	
 	padding: 10px;	
@@ -171,39 +172,41 @@ body{
 #background{
 	background: url(../images/oldman.png) no-repeat;
 	width: 100%;
-	height: 40vh;
-	min-width: 250px;
-	background-size: inherit;
+	min-height: 400px;
     padding-left: 2em;
     max-height: 420px;
+    background-size: cover;
 }
 
 
 #visual_content .regular_text{
-	top: 30vh;
-    position: absolute;
-    right: -15vh;
+    position: relative;
+    right: -40%;
 	background-color: #f9a63b;	
-	width: 55vh;
-	height: 15vh;
+	width: 35%;
+	height: 30%;
 	display: flex;
 	align-items: center;
-	min-width: 350px;
-	min-height: 150px;
-	margin:0;
-	padding: 0.6em;
+	margin-top: -8%;
+	padding: 3em;
 	word-wrap: break-word;
 	color: white;
 	margin-bottom: 10%;
+	line-height: 2;
 }
 
 #visual_content div:nth-child(3){
-	width: 10vh;
-	height: 5vh;
+	padding: 1em;
 	background-color: #162c55;
-	position: relative;
-    right: -10vh;
-   /* padding: 0.6em;*/
+	position: absolute;
+	width: 5%;
+	margin-top: -12%;
+    left: 65%;
+}
+
+#visual_content div:nth-child(3) img{
+	display: block;
+	margin: 0%;
 }
 
 @media screen and (max-width: 700px) {
@@ -234,11 +237,11 @@ body{
 	
 	/*FIRST PAGE IMAGE RULES*/
 	#cassette img{
-		width: 80%;
+		width: 60%;
 	}
 
 	#cassette{
-		 bottom: 5%;
+		 bottom: 15%;
 	}
 	
 
