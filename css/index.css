@@ -52,6 +52,10 @@ body{
 	background-color: #162c55;
 }
 
+#fall{
+	background-color: #ffffff;
+}
+
 
 /*FIRST PAGE-SPECIFIC TEXT RULES*/
 #text_container{
@@ -127,6 +131,7 @@ body{
 	position: relative;
 	line-height: 1;
 	text-align: center;
+	padding-top: 5%;
 }
 
 #intro .title div:first-child{
@@ -178,9 +183,9 @@ body{
 #background{
 	background: url(../images/oldman.png) no-repeat;
 	width: 100%;
-	min-height: 500px;
+	min-height: 400px;
     padding-left: 2em;
-    max-height: 420px;
+   /* max-height: 420px;*/
     background-size: cover;
 }
 
@@ -198,8 +203,6 @@ body{
 	line-height: 2;
 	width: 60%;
 }
-
-
 
 #visual_content img{
     padding-top:1em;
@@ -259,7 +262,10 @@ body{
 		text-align: center;
 	}
 	#intro .title div:first-child img{
-		display:none;
+		/*display:none;*/
+		margin-left: auto;
+   		margin-right: auto;
+   		margin-bottom: 5%;
 	}
 
 	#intro .title div:nth-child(2){
@@ -267,7 +273,35 @@ body{
 	}
 
 	#intro .title {
-		padding-top: 0%;
+		padding-top: 5%;
+	}
+	
+	#visual_content div:nth-child(2){
+		/*bottom: 0%;*/
+		/*left: 50%;*/
+		margin-top: -20%;
+		position: static;
+		margin:auto;
+	}
+
+	#visual_content div:nth-child(2) p{
+		margin-left:auto;
+		margin-right:auto;
+		width: 50%;
+		padding: 1em;
+		min-width: 250px;
+		margin-bottom: 0%;
+	}
+
+	#visual_content img{
+		margin-left:auto;
+		margin-right:auto;
+		position:static;
+
+	}
+	
+	#background{
+		padding:0;
 	}
 
 
