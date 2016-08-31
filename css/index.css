@@ -272,6 +272,80 @@ body{
 
 /*FOURTH PAGE RULES*/
 
+#length .left{
+	color:  #162c55;
+}
+
+#length .title{
+	color: #978272;
+}
+
+#length td div{
+	position:relative;
+	border-radius: 50%;
+	min-width:80px; 
+	min-height:80px; 
+	background-color: white;
+}
+
+#length td p{
+	font-size: 2.5em;
+	position: absolute;
+	top:20px; 
+	left: 40px;
+}
+
+#length td{
+	position:relative;
+	padding-right: 30%;
+	padding-bottom: 20%;
+}
+
+#length tr:nth-child(1) td:nth-child(1) div{
+	background-color: #faa93c;
+}
+
+
+#length  tr:nth-child(1) td:nth-child(2) div{
+	background-color: #162c55;
+	
+}
+
+#length tr:nth-child(2) td:nth-child(1) div{
+	background-color: #978272;
+	
+}
+#length  tr:nth-child(2) td:nth-child(2) div{
+	background-color: #3b7c61;	
+}
+
+#length tr:nth-child(1) td:nth-child(1) p, #length tr:nth-child(1) td:nth-child(2) p {
+	color: #3b7c61;
+}
+
+#length tr:nth-child(2) td:nth-child(1) p, #length tr:nth-child(2) td:nth-child(2) p {
+	color: #faa93c;}
+
+
+#length_content{
+	margin-top: 10%;
+	position:relative;
+	overflow:auto;
+}
+
+#length_content img{
+	position:relative;
+	float:right;
+}
+
+#length_content table{
+	display: inline-block;
+	margin-left: 10%;
+	top:50%;
+}
+
+
+
 /*FIFTH PAGE RULES*/
 
 #applications .title_text{
@@ -283,8 +357,8 @@ body{
 
 #applications_content img{
 	margin-left: -20%;
-	-webkit-transition: margin-left 2s; /* Safari */
-    transition: margin-left 2s;
+	-webkit-transition: margin-left 1.5s; /* Safari */
+    transition: margin-left 1.5s;
     width: 70%;
     height:auto;
 }
@@ -297,7 +371,6 @@ body{
 	float:right;
 	color: white;
 	list-style-type:none;
-	/*text-align: left;*/
 	position:relative;
 	right: 5%;
 	margin-top: 5%;
@@ -464,10 +537,6 @@ body{
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
-
-
-
-
 
 }
 
