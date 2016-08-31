@@ -59,7 +59,7 @@ body{
 
 /*FIRST PAGE-SPECIFIC TEXT RULES*/
 #text_container{
-    padding-top: 2em;
+    padding-top: 7%;
 }
 
 #text_container p:first-child{
@@ -68,6 +68,9 @@ body{
 
 #text_container p:nth-child(2){
 	color: #69a189;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #text_container p:last-child{
@@ -77,7 +80,6 @@ body{
 	line-height: 1;
 	margin: 0em;
 	position: relative;
-	padding-top: 0.3em;
 }
 
 #text_container p:last-child:hover{
@@ -89,7 +91,7 @@ body{
 .title_text{
 	font-family: 'intro_condblack_free';
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 3.6em;
 	/*margin-bottom: 1em;*/
 	margin-top: 0em;
 	
@@ -100,11 +102,34 @@ body{
 	text-align: center;
 	font-size: 0.8em;
 	/*margin: 2em;*/
+	font-weight: 100;
+}
 
+.title{
+	position: relative;
+	line-height: 1;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.title div:first-child{
+	font-size: 4.5em;
+	line-height: 0.9;
+	
+	position:absolute;
+	bottom:-10px;
+}
+
+.left{	
+	left: 5%;
+}
+
+.right{	
+	right: 5%;
 }
 
 #text_container .title_text{
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 /*FIRST PAGE IMAGE RULES*/
@@ -127,26 +152,12 @@ body{
 /*SECONG PAGE RULES*/
 
 /*TITLE RULES*/
-#intro .title{
-	position: relative;
-	line-height: 1;
-	text-align: center;
-	padding-top: 5%;
-}
 
 #intro .title div:first-child{
-	font-size: 5em;
-	line-height: 0.9;
 	color: #162c55;	
-	position:absolute;
-	bottom:-10px;
 }
 
-.left{	
-	left: 5%;
-}
-
-#intro .title div:first-child img{
+.underline{
 	display: block;
 }
 
@@ -160,6 +171,10 @@ body{
 #intro_content{
 	margin-top: 10%;
 	position:relative;
+}
+
+#intro .title{
+	padding-top: 5%;
 }
 
 #visual_content{
@@ -216,6 +231,123 @@ body{
 	left: 40%;
 }
 
+
+/*THIRD PAGE RULES*/
+#types .title{
+	color: #162c55;
+}
+
+#types p.regular_text{
+	width: 50%;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+
+
+#types_content div:nth-child(2) {
+	width:60%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+#types_content div:nth-child(2) p{
+	font-weight:600;
+	font-size: 4.5em;
+	color: #fff;
+}
+#types_content div:nth-child(2) img:first-child{
+	float:left;
+	/*max-width: 300px;
+*/
+}
+#types_content div:nth-child(2) img:last-child{
+	float:right;
+	max-width: 400px;
+}
+
+
+/*FOURTH PAGE RULES*/
+
+/*FIFTH PAGE RULES*/
+
+#applications .title_text{
+	color: #fff;
+}
+#applications .right{
+	color: #f9a63b;
+}
+
+#applications_content img{
+	margin-left: -20%;
+	-webkit-transition: margin-left 2s; /* Safari */
+    transition: margin-left 2s;
+    width: 70%;
+    height:auto;
+}
+
+#applications_content img:hover{
+	margin-left: -10%;
+}
+
+#applications ul{
+	float:right;
+	color: white;
+	list-style-type:none;
+	/*text-align: left;*/
+	position:relative;
+	right: 5%;
+	margin-top: 5%;
+}
+
+#applications li{
+	text-align: left;
+	padding-bottom: 2em;
+	font-size: 1em;
+}
+
+#applications li:before {
+    content: "+";
+    margin-right: 4px;
+    color: #f9a63b;
+    font-size: 1.5em;
+   	position:relative;
+   	top: 0.1em;
+   	font-weight: bold;
+
+}
+
+#applications_content{
+	width: 80%;
+	margin-top: 10%;
+}
+
+/*SIXTH PAGE RULES*/
+
+#fall .title_text{
+	color: #978272;
+}
+
+#fall .regular_text{
+	color: #b9b7b5;
+	width: 65%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+}
+
+#fall img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 80%;
+	height: auto;
+}
+
+
 @media screen and (max-width: 700px) {
 	/*FIRST PAGE-SPECIFIC TEXT RULES*/
 	#text_container p:last-child{
@@ -254,25 +386,25 @@ body{
 
 	/*SECOND PAGE RULES*/
 
-	#intro .title div:first-child{
+	.title div:first-child{
 		position:relative;	
 		left:0%;
 		padding-bottom: 5%;
 		padding-top: 5%;
 		text-align: center;
 	}
-	#intro .title div:first-child img{
+	.underline{
 		/*display:none;*/
 		margin-left: auto;
    		margin-right: auto;
    		margin-bottom: 5%;
 	}
 
-	#intro .title div:nth-child(2){
+	.title div:nth-child(2){
 		display: block;
 	}
 
-	#intro .title {
+	.title {
 		padding-top: 5%;
 	}
 	
@@ -297,12 +429,42 @@ body{
 		margin-left:auto;
 		margin-right:auto;
 		position:static;
-
 	}
 	
 	#background{
 		padding:0;
 	}
+
+	
+
+/*THIRD PAGE RULES*/
+
+/*FOURTH PAGE RULES*/
+
+/*FIFTH PAGE RULES*/
+
+	#applications li{
+		padding-left: 0em;
+		padding-right: 0em;
+		font-size: 0.8em;
+		text-align: right;
+		/*right: 5%;*/
+	}
+
+	#applications_content{
+		width:95%;
+	}
+
+	#applications_content img{
+		position:absolute;
+	}
+
+	/*SIXTH PAGE RULES*/
+	#fall .regular_text{
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
 
 
 
