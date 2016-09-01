@@ -616,7 +616,9 @@ body{
 
 
 /*FIFTH PAGE RULES*/
-
+	.page{
+		max-height: 700px;
+	}
 	#applications li{
 		padding-left: 0em;
 		padding-right: 0em;
