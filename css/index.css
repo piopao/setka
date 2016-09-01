@@ -617,8 +617,9 @@ body{
 
 /*FIFTH PAGE RULES*/
 	.page{
-		max-height: 700px;
+		min-height: 1000px;
 	}
+
 	#applications li{
 		padding-left: 0em;
 		padding-right: 0em;
@@ -629,6 +630,7 @@ body{
 
 	#applications_content{
 		width:95%;
+		margin-top: 40%;
 	}
 
 	#applications_content img{
