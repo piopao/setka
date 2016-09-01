@@ -558,12 +558,14 @@ body{
 	padding-right: 0em;
 	margin-top: 0%; 
 	margin-bottom: 0%;
+	font-size: 3em;
 }
 
 #types_content img{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
+	width: 30%;
 }
 
 
