@@ -92,7 +92,6 @@ body{
 	font-family: 'intro_condblack_free';
 	text-align: center;
 	font-size: 3.6em;
-	/*margin-bottom: 1em;*/
 	margin-top: 0em;
 	
 }
@@ -101,7 +100,6 @@ body{
 	font-family: 'montserratregular';
 	text-align: center;
 	font-size: 0.8em;
-	/*margin: 2em;*/
 	font-weight: 100;
 }
 
@@ -200,7 +198,6 @@ body{
 	width: 100%;
 	min-height: 400px;
     padding-left: 2em;
-   /* max-height: 420px;*/
     background-size: cover;
 }
 
@@ -231,7 +228,6 @@ body{
 	left: 40%;
 }
 
-
 /*THIRD PAGE RULES*/
 #types .title{
 	color: #162c55;
@@ -244,9 +240,6 @@ body{
 	margin-right: auto;
 	margin-top: 8%;
 }
-
-
-
 
 #types_content div{
 	width:60%;
@@ -273,17 +266,10 @@ body{
 	font-family: 'montserratregular';
 }
 
-#types_content div img:first-child{
+#types_content div img{
 	max-width: 40%;
 	height:auto;
 }
-#types_content div img:last-child{
-	/*float:right;*/
-	max-width: 40%;
-	height:auto;
-}
-
-
 
 
 /*FOURTH PAGE RULES*/
@@ -313,11 +299,8 @@ body{
 
 #length td{
 	position:relative;
-/*	padding-right: 100%;*/
 	padding-right: 150px;
 }
-
-
 
 #length tr:nth-child(1) td:nth-child(1) div{
 	background-color: #faa93c;
@@ -368,14 +351,11 @@ body{
 	justify-content:space-between;
 }
 
-
 #length_content table{
 	display: inline-block;
 	margin-left: 10%;
 	top:50%;
 }
-
-
 
 /*FIFTH PAGE RULES*/
 
@@ -537,87 +517,74 @@ body{
 	
 	#background{
 		padding:0;
+	}	
+
+	/*THIRD PAGE RULES*/
+	#types_content div{
+		width:100%;
+		display: block;
+		margin-top: 10%;
+		height: 50%;
+		
 	}
 
+	#types_content div p{
+		text-align: center;
+		padding-left: 0em;
+		padding-right: 0em;
+		margin-top: 0%; 
+		margin-bottom: 0%;
+		font-size: 3em;
+	}
 
+	#types_content img{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width: 30%;
+	}
 
-	
+	/*FOURTH PAGE RULES*/
 
-/*THIRD PAGE RULES*/
-#types_content div{
-	width:100%;
-	display: block;
-	margin-top: 10%;
-	height: 50%;
-	
-}
+	#length_content{
+		width:100%;
+		display: block;
+		margin-top: 20%;
+	}
 
-#types_content div p{
-	text-align: center;
-	padding-left: 0em;
-	padding-right: 0em;
-	margin-top: 0%; 
-	margin-bottom: 0%;
-	font-size: 3em;
-}
+	#length_content table{
+		margin-left:auto;
+		margin-right: auto;
+		display: table;
+	}
 
-#types_content img{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	width: 30%;
-}
+	#length td{
+		padding-right: 0%;
+		padding-bottom: 70px;
+	}
 
+	#length_content img{
+		float:right;
+		width: 70%;
+	}
 
+	#length tr:nth-child(1) td:nth-child(1), #length tr:nth-child(2) td:nth-child(1){
+		padding-right: 70px
+	}
 
+	#length td div{
+		min-width:60px; 
+		min-height:60px; 
+	}
 
+	#length td p{
+		font-size: 2em;
+		position: absolute;
+		top:10px; 
+		left: 20px;
+	}
 
-
-/*FOURTH PAGE RULES*/
-
-#length_content{
-	width:100%;
-	display: block;
-	margin-top: 20%;
-}
-
-#length_content table{
-	margin-left:auto;
-	margin-right: auto;
-	display: table;
-}
-
-#length td{
-	padding-right: 0%;
-	padding-bottom: 70px;
-	/*padding-bottom: 30%;*/
-}
-
-#length_content img{
-	float:right;
-	width: 70%;
-}
-
-#length tr:nth-child(1) td:nth-child(1), #length tr:nth-child(2) td:nth-child(1){
-	padding-right: 70px
-}
-
-#length td div{
-	min-width:60px; 
-	min-height:60px; 
-}
-
-#length td p{
-	font-size: 2em;
-	position: absolute;
-	top:10px; 
-	left: 20px;
-}
-
-
-
-
-/*FIFTH PAGE RULES*/
+	/*FIFTH PAGE RULES*/
 	.page{
 		min-height: 1000px;
 	}
@@ -627,7 +594,6 @@ body{
 		padding-right: 0em;
 		font-size: 0.8em;
 		text-align: right;
-		/*right: 5%;*/
 	}
 
 	#applications_content{
@@ -644,7 +610,6 @@ body{
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
-
 }
 
 
