@@ -1,4 +1,5 @@
 # setka
 
-to fix: fourth page flexbox
+to fix: fourth page flexbox -- FIXED?
+
 
