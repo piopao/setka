@@ -21,6 +21,7 @@ body{
 .page{
 	height: 100vh;
 	min-height: 1200px;
+
 }
 
 #info{
@@ -255,6 +256,9 @@ body{
 	-webkit-box-align: center;
 
 	align-items: center;
+
+	-webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
 
 	justify-content:space-around;
 }
